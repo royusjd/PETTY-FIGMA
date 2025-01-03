@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    font-family: "Inter", serif;
+    background: linear-gradient(to right,#040006 , #62005F);
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow-x: hidden;
+}
+:root {
+    --lightOrange: #FD7452;
+    --Orange: #FF4265;
+}
+.inter-uniquifier {
+  font-family: "Inter", serif;
+}
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.navSection {
+    gap: 5px;
+    padding: 35px 0px;
+    max-width: 1100px;
+}
+.navSection ul {
+    list-style: none;
+    gap: 50px;
+    position: relative;
+}
+.navSection a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.navSection h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 5px;
+}
+.navSection p {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+.navSection li img {
+    position: absolute;
+    top: 3px;
+    left: -20px;
+}
+.contactUs a {
+    margin-right: 10px;
+    font-size: 18px;
+}
+.navSection h2, .navSection img, .navSection p:hover {
+    cursor: pointer;
+}
+.navSection p:hover {
+    color: var(--Orange);
+}
+.navSection a:hover {
+    color: var(--Orange);
+}
+.firstSection { 
+    justify-content: space-between;
+    color: white;
+}
+.firstSectionInfo {
+    align-items: start;
+    gap: 40px;
+}
+.firstSectionInfo h4 {
+    font-weight: 600;
+    font-size: 20px;
+    background: linear-gradient(to right, var(--lightOrange), var(--Orange));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.firstSectionInfo h1 {
+    font-weight: 300;
+    font-size: 56px;
+}
+.firstSectionInfo h1 span {
+    font-weight: 700;
+    background: linear-gradient(to right, var(--lightOrange), var(--Orange));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.firstSectionInfo p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+.firstSectionButtonLink {
+    gap: 25px;
+}
+.firstSectionButtonLink button {
+    padding: 16px 42px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, var(--lightOrange), var(--Orange));
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.firstSectionButtonLink a {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    text-underline-offset: 3px;
+    transition: 0.3s;
+}
+.firstSectionButtonLink button:hover {
+    cursor: pointer;
+    background: transparent;
+    outline: 2px solid var(--Orange);
+}
+.firstSectionButtonLink a:hover {
+    color: var(--Orange);
+}
+.firstSectionPictures {
+    position: relative;
+    box-shadow: 0px 0px 200px #fd745246  ;
+    top: 158px;
+    background: linear-gradient(to top,#140119, #5B0E4E);
+    border-radius: 40% 40% 0px 0px;
+    height: 700px;
+    width: 550px;
+}
+.firstSectionMainPicture {
+    margin-top: 187px;
+}
+.firstSectionPicture1 {
+    position: absolute;
+    top: -55px;
+    left: 90px;
+}
+.firstSectionPicture2 {
+    position: absolute;
+    top: 165px;
+    left: 15px;
+}
+.firstSectionPicture3 {
+    position: absolute;
+    top: -20px;
+    left: 340px;
+}
+.firstSectionPicture4 {
+    position: absolute;
+    top: 90px;
+    left: 490px;
+}
+.firstSectionPicture5 {
+    position: absolute;
+    top: 525px;
+    left: -25px;
+}

@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1180px) {
+    .firstSection {
+        flex-direction: column;
+    }
+    .flexBetween {
+        justify-content: center;
+        gap: 60px;
+    }
+    .navSection {
+        flex-direction: column;
+    }
+    .navSection h2 {
+        margin-right: 25px;
+    }
+    .navSection a, .contactUs a {
+        padding: 15px;
+    }
+    .contactUs a {
+        margin-right: 0px;
+    }
+    .orangeDogPaw {
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .firstSectionPictures {
+        scale: 0.8;
+    }
+    .navSection ul {
+        flex-direction: column;
+    }
+    .orangeDogPaw {
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 505px) {
+    .firstSectionPictures {
+        scale: 0.7;
+    }
+    .firstSectionInfo {
+        text-align: center;
+        align-items: center;
+    }
+    .firstSection {
+        margin-top: 60px;
+    }
+}
+@media only screen and (max-width: 505px) {
+    .firstSectionPictures {
+        scale: 0.7;
+    }
+}
+@media only screen and (max-width: 405px) {
+    .firstSectionPictures {
+        scale: 0.55;
+    }
+}
